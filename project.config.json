@@ -48,10 +48,10 @@
 		"tabIndent": "tab",
 		"tabSize": 2
 	},
-	"libVersion": "2.19.1",
+	"libVersion": "3.11.3",
 	"packOptions": {
 		"ignore": [],
 		"include": []
 	},
-	"appid": "wx6a2d0773d3fd3d24"
+	"appid": "wx4340f7f0ea070734"
 }
