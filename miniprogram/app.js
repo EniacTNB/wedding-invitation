@@ -17,13 +17,13 @@ App({
 
         // 新郎新娘信息
         couple: [{
-            image: 'https://res.wx.qq.com/t/fed_upload/52557f40-32f9-4b37-9115-eed527e55683/husband.jpg', // 新郎单人照
+            image: 'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/xinlang-danren.jpg', // 新郎单人照
             name: '张钊', // 姓名
             alias: '新郎', // 称谓
             number: '17600727809', // 手机号码
             birthday: '1997.06.21' // 出生日期
         }, {
-            image: 'https://res.wx.qq.com/t/fed_upload/e4ddf6ce-990c-45b1-b4e9-bdf6a6b498ac/wife.jpg', // 新娘单人照
+            image: 'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/xinniang-danren.jpg', // 新娘单人照
             name: '江雨思', // 姓名
             alias: '新娘', // 称谓
             number: '18811770387', // 手机号码
