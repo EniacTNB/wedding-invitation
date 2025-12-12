@@ -62,7 +62,7 @@ Page({
             cover:'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/hezhao.jpg',
 
             // 音乐封面
-            poster: 'https://res.wx.qq.com/t/fed_upload/d811d254-e5d6-4c19-9ff8-77c4b6128137/poster.jpg',
+            poster: '../../images/infoPoster.jpg',
 
             // 新郎独照
             // husband: 'https://res.wx.qq.com/t/fed_upload/d811d254-e5d6-4c19-9ff8-77c4b6128137/husband.jpg',
@@ -70,21 +70,23 @@ Page({
 
             // 新娘独照
             // wife: 'https://res.wx.qq.com/t/fed_upload/d811d254-e5d6-4c19-9ff8-77c4b6128137/wife.jpg',
-            wife:'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/xinniang.jpg',
+            wife:'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo3.jpg',
             // wife:
 
             // 轮播图1
             swiper1: [
-                'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo1.jpg',
-                'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo2.jpg',
-                'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo3.jpg'
+                // 'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo1-1.jpg',
+                'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo1-2.jpg',
+                'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo1-4.jpg',
+                'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo1-5.jpg'
+                // 'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo3.jpg'
             ],
 
             // 连续图
             series: [
                 // 'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lianxu1.jpg',
-                'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lianxu2.jpg',
-                'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lianxu3.jpg'
+                // 'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lianxu2.jpg',
+                // 'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lianxu3.jpg'
             ],
 
             // 左上图
@@ -110,7 +112,7 @@ Page({
             // 轮播图2
             swiper2: [
                 // 'https://res.wx.qq.com/t/fed_upload/65134c0f-c513-410e-b4ff-ab738801540f/swiper2-1.jpg',
-                'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo2-1.jpg',
+                'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo2-4.jpeg',
                 'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo2-2.jpg',
                 'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo2-3.jpeg',
                 // 'https://res.wx.qq.com/t/fed_upload/65134c0f-c513-410e-b4ff-ab738801540f/swiper2-2.jpg',
@@ -128,11 +130,11 @@ Page({
             // ],
 
             // 结尾图1
-            end1: 'https://res.wx.qq.com/t/fed_upload/9b5bad9c-216b-4fd5-a3da-01bdb3a5e832/end1.jpg',
+            // end1: 'https://res.wx.qq.com/t/fed_upload/9b5bad9c-216b-4fd5-a3da-01bdb3a5e832/end1.jpg',
             end1:'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/jiewei-1.jpeg',
 
             // 结尾图2
-            end2: 'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/jiewei-2.png'
+            end2: 'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/jiewei-3.jpg'
         }
     },
 
