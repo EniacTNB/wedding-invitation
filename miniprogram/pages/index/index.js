@@ -41,10 +41,12 @@ Page({
         ] : [],
 
         // 背景音乐（默认用陈奕迅的《I DO》，想换的话自己去找音频资源，我是在「婚贝」上找的）
+        // <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=27902536&auto=1&height=66"></iframe>
         music: {
-            src: 'https://amp3.hunbei.com/mp3/IDo_ChenYiXun.mp3', // 音频资源链接
-            name: 'I DO', // 歌名
-            singer: '陈奕迅' // 歌手名
+            // src: 'https://amp3.hunbei.com/mp3/IDo_ChenYiXun.mp3', // 音频资源链接
+            src:'https://music.163.com/outchain/player?type=2&id=27902536&auto=1',
+            name: '我们好像在哪见过', // 歌名
+            singer: 'Eniac&Yusi' // 歌手名
         },
 
         // 酒店信息（通过页面上的「选择位置并获取定位信息」按钮可以获取定位信息，发布前记得把按钮注释起来）
@@ -59,7 +61,7 @@ Page({
         imgs: {
             // 封面图
             // cover: 'https://res.wx.qq.com/t/fed_upload/459fb8da-b31a-420f-b8cc-f51126952685/cover.jpg',
-            cover:'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/hezhao.jpg',
+            cover:'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/hezhao-yusi-1214.jpg',
 
             // 音乐封面
             poster: '../../images/infoPoster.jpg',
