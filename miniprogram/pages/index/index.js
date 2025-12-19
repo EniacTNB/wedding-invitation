@@ -53,8 +53,9 @@ Page({
         location: genLocation([{
             name: '青岛金源帝璟大酒店',
             address: '山东省青岛市莱西市烟台路75号',
-            latitude: 36.872945,
-            longitude: 120.529861
+            // 120.523275,36.867175
+            latitude: 36.867175,
+            longitude: 120.523275
         }])[0],
 
         // 图片信息（其实就是婚纱照了）
@@ -64,7 +65,7 @@ Page({
             cover:'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/hezhao-yusi-1214.jpg',
 
             // 音乐封面
-            poster: '../../images/infoPoster.jpg',
+            poster: '../../images/shareAppMsg.jpg',
 
             // 新郎独照
             // husband: 'https://res.wx.qq.com/t/fed_upload/d811d254-e5d6-4c19-9ff8-77c4b6128137/husband.jpg',
@@ -104,7 +105,7 @@ Page({
               'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/sigong-1.jpg',
               'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/sigong-2.jpg',
               'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/sigong-3.jpg',
-              'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/sigong-4.jpeg'
+              'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/sigong-6.jpg'
                 // 'https://res.wx.qq.com/t/fed_upload/b959a506-ca42-47e1-9fbd-732a6151e3d9/map1.jpg',
                 // 'https://res.wx.qq.com/t/fed_upload/b959a506-ca42-47e1-9fbd-732a6151e3d9/map2.jpg',
                 // 'https://res.wx.qq.com/t/fed_upload/b959a506-ca42-47e1-9fbd-732a6151e3d9/map3.jpg',
@@ -114,6 +115,7 @@ Page({
             // 轮播图2
             swiper2: [
                 // 'https://res.wx.qq.com/t/fed_upload/65134c0f-c513-410e-b4ff-ab738801540f/swiper2-1.jpg',
+                'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/sigong-5.jpg',
                 'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo2-4.jpeg',
                 'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo2-2.jpg',
                 'cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/lunbo2-3.jpeg',

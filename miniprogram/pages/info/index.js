@@ -120,7 +120,7 @@ Page({
     onShareAppMessage() {
         return {
             title: '婚礼公告栏',
-            imageUrl: '../../images/infoPoster.jpg'
+            imageUrl: '../../images/shareAppMsg.jpg'
         }
     }
 })

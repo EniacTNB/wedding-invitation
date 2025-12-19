@@ -14,7 +14,7 @@
         <image class="img-invitation" src="https://h5cdn.hunbei.com/editorCustomPic/2022-11-4-N87SPKmaSQW7kZ3i7ZH4QHeMXpYhZzDs.png?imageMogr2/auto-orient/crop/!1455x384a457a363/quality/90|imageMogr2/thumbnail/659x174>" mode="aspectFit" />
         <image class="img-cover" src="{{ imgs.cover }}" mode="aspectFit" />
     </view>
-    <view class="lh15">斯人若如虹，遇上方知有</view>
+    <view class="lh15">去爱、去感受、去创造、去生活.</view>
 </view>
 
 <view class="music">
@@ -31,15 +31,36 @@
     </view>
 </view>
 
+<view class="tc lh21 mb100">
+    <image class="img-separate mb100" src="https://h5cdn.hunbei.com/editorCustomPic/2022-1-26-rx4ZZi3KdMErdNk4E2X3EHh3EiB3bPdY.gif?imageMogr2/auto-orient/thumbnail/864x27>" mode="aspectFit" />
+    <image class="img-calendar-title mb100" src="https://h5cdn.hunbei.com/editorCustomPic/2022-8-22-wybCS45p5fFnRhTpQB5x48WhY4bjEDj8.png?imageMogr2/auto-orient/thumbnail/511x117>/format/webp" mode="aspectFit" />
+    <calendar id="calendar" date="{{ weddingTime }}"></calendar>
+    <view>{{ weddingTimeStr[2] }}</view>
+    <view>{{ weddingTimeStr[3] }}</view>
+</view>
+
+<view class="location mb100">
+    <view>
+        <view>{{ location.name }}</view>
+        <view>{{ location.address }}</view>
+    </view>
+    <map longitude="{{ location.longitude }}" latitude="{{ location.latitude }}" enable-zoom="{{ false }}" enable-scroll="{{ false }}" markers="{{ location.markers }}" />
+    <view class="location-mask" bindtap="openLocation"></view>
+
+    <!-- 仅用于获取定位信息，获取后会打印到控制台并写入到粘贴板，正式发布时记得注释起来 -->
+    <!-- <button type="primary" size="mini" bindtap="chooseLocation">选择位置并获取定位信息</button> -->
+</view>
+
 <view class="tc lh21 mb58">
     <view>hi~亲爱的你~</view>
     <view>当收到这封请柬的时候</view>
-    <view class="mb58">我们的婚礼已经在倒计时啦</view>
+    <view class="mb58">张钊和雨思的婚礼已经在倒计时啦</view>
     <view>以前觉得婚礼是一则官方公告</view>
     <view>现在才明白</view>
     <view>这是一场为数不多的相聚</view>
     <view>是千里迢迢的奔赴</view>
     <view class="mb58">是不计得失的支持</view>
+    <view class="mb58">很想您们</view>
     <view>好久不见，婚礼见</view>
     <view>❤</view>
 </view>
@@ -48,7 +69,7 @@
     <image class="img-introduce" src="https://h5cdn.hunbei.com/editorCustomPic/2022-8-22-WNhBXi3ty4fw7dwFBxSZneDKYtz754ya.png?imageMogr2/auto-orient/thumbnail/542.00x58.84>" mode="aspectFit" />
     <view class="moon">
         <image class="img-moon" src="cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/xinlang-xiao-2.jpg" mode="aspectFit" />
-        <image class="img-moon" src="cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/xinniang-xiao-2.jpg	" mode="aspectFit" />
+        <image class="img-moon" src="cloud://cloud1-8gpcegtme9e92b0e.636c-cloud1-8gpcegtme9e92b0e-1391054035/wedding/xinniang-xiao-2.jpg" mode="aspectFit" />
         <view class="birthday">
             <text wx:for="{{ couple }}" wx:key="name">{{ item.birthday }}</text>
         </view>
@@ -62,32 +83,34 @@
     <image class="img-husband" src="{{ imgs.husband }}" mode="aspectFit" />
     <view class="husband-desc">
         <view>/</view>
-        <view>他有 最暖的真心</view>
-        <view>细腻的心思</view>
-        <view>我一百分的男孩</view>
+        <view>充满激情 无所不能</view>
+        <view>马中赤兔 酒中茅台</view>
+        <!-- <view>我一百分的男孩</view> -->
     </view>
 </view>
 
 <view class="wife lh21 mb100">
     <view class="wife-desc">
         <view>/</view>
-        <view>{{ anniversary }}</view>
-        <view>一见钟情</view>
-        <view>是灵魂认出了你</view>
+        <!-- <view>{{ anniversary }}</view> -->
+        <view>皎若太阳升朝霞</view>
+        <view>灼若芙蕖出渌波</view>
+
+        <!-- <view>迫而察之，灼若芙蕖出渌波</view> -->
     </view>
     <image class="img-wife" src="{{ imgs.wife }}" mode="aspectFit" />
 </view>
 
 <view class="tc lh21 mb100">
-    <view>我常常觉得也许这辈子</view>
-    <view>不会得到所谓的爱情了</view>
-    <view>直到</view>
-    <view>你出现了</view>
+    <view>我们就像</view>
+    <view>落日和大海</view>
+    <view>永远热烈,永远相遇,永远相拥</view>
+    <!-- <view>你出现了</view> -->
 </view>
 
 <view class="tc lh21 mb100">
     <image class="img-separate mb100" src="https://h5cdn.hunbei.com/editorCustomPic/2022-1-26-rx4ZZi3KdMErdNk4E2X3EHh3EiB3bPdY.gif?imageMogr2/auto-orient/thumbnail/864x27>" mode="aspectFit" />
-    <image class="img-wedding mb58" src="https://h5cdn.hunbei.com/editorCustomPic/2022-8-22-HsinmKrKbjrjeSYWDBi7JYMjxrNeeXtj.png?imageMogr2/auto-orient/thumbnail/507x99>/format/webp" mode="aspectFit" />
+    <!-- <image class="img-wedding mb58" src="https://h5cdn.hunbei.com/editorCustomPic/2022-8-22-HsinmKrKbjrjeSYWDBi7JYMjxrNeeXtj.png?imageMogr2/auto-orient/thumbnail/507x99>/format/webp" mode="aspectFit" /> -->
     <swiper class="swiper-western mb58" autoplay circular interval="2500" easing-function="linear" indicator-dots>
         <swiper-item wx:for="{{ imgs.swiper1 }}" wx:key="*this">
             <image class="img-full-width" src="{{ item }}" mode="widthFix" />
@@ -103,10 +126,10 @@
     <view class="img-list mb58">
         <image wx:for="{{ imgs.series }}" wx:key="*this" class="img-full-width" src="{{ item }}" mode="widthFix" />
     </view>
-    <view>人生其实只要两次幸运就好</view>
+    <!-- <view>人生其实只要两次幸运就好</view>
     <view>一次遇见你，一次是走到底</view>
     <view>如今，我们决定开启人生新的篇章</view>
-    <view>让爱以夫妻之名延续</view>
+    <view>让爱以夫妻之名延续</view> -->
 </view>
 
 <view class="leaf lh21 mb152">
@@ -135,11 +158,11 @@
             <image class="img-map-item" src="{{ imgs.map[3] }}" mode="aspectFit" />
         </view>
     </view>
-    <view>不管外面的世界风雨飘摇也罢</view>
-    <view>希望我们总能以最简单的方式相伴</view>
+    <!-- <view>不管外面的世界风雨飘摇也罢</view>
+    <view>希望我们总能以最简单的方式相伴</view> -->
     <view>家人闲坐，灯火可亲</view>
     <view>世上最有趣的事</view>
-    <view>就是和最爱的人一起虚度光阴</view>
+    <view>就是和最爱的人一起共度光阴</view>
 </view>
 
 <view class="tc lh21 mb100">
@@ -178,25 +201,15 @@
     <view>见证和分享我们的幸福时刻</view>
 </view>
 
-<view class="tc lh21 mb100">
+<!-- <view class="tc lh21 mb100">
     <image class="img-separate mb100" src="https://h5cdn.hunbei.com/editorCustomPic/2022-1-26-rx4ZZi3KdMErdNk4E2X3EHh3EiB3bPdY.gif?imageMogr2/auto-orient/thumbnail/864x27>" mode="aspectFit" />
     <image class="img-calendar-title mb100" src="https://h5cdn.hunbei.com/editorCustomPic/2022-8-22-wybCS45p5fFnRhTpQB5x48WhY4bjEDj8.png?imageMogr2/auto-orient/thumbnail/511x117>/format/webp" mode="aspectFit" />
     <calendar id="calendar" date="{{ weddingTime }}"></calendar>
     <view>{{ weddingTimeStr[2] }}</view>
     <view>{{ weddingTimeStr[3] }}</view>
-</view>
+</view> -->
 
-<view class="location mb100">
-    <view>
-        <view>{{ location.name }}</view>
-        <view>{{ location.address }}</view>
-    </view>
-    <map longitude="{{ location.longitude }}" latitude="{{ location.latitude }}" enable-zoom="{{ false }}" enable-scroll="{{ false }}" markers="{{ location.markers }}" />
-    <view class="location-mask" bindtap="openLocation"></view>
-
-    <!-- 仅用于获取定位信息，获取后会打印到控制台并写入到粘贴板，正式发布时记得注释起来 -->
-    <!-- <button type="primary" size="mini" bindtap="chooseLocation">选择位置并获取定位信息</button> -->
-</view>
+<!-- 这里原本是地图位置信息 -->
 
 <view class="phone mb100">
     <view class="phone-item" wx:for="{{ couple }}" wx:key="name">
